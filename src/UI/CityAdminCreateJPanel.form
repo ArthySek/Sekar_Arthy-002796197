@@ -107,7 +107,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblCommunityid" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCommunityid" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="lblCommunity" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="lblCommunity2" min="-2" pref="59" max="-2" attributes="0"/>
                       </Group>
@@ -207,7 +207,7 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="ComboBoxCity" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="lblCommunity2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -223,7 +223,7 @@
                                   <Component id="txtCommunityid" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="ComboBoxCity1" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="lblCommunity3" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -243,16 +243,16 @@
                                   <Component id="txtHouseno" linkSize="5" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="lblHouseNo" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btncreate2" max="32767" attributes="0"/>
-                          <Component id="btncreate1" min="-2" pref="42" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btncreate1" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="btncreate2" min="-2" pref="36" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -269,9 +269,9 @@
                               <Component id="jScrollPane3" min="-2" pref="141" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btndelete1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="btnview1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="btnpop1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btndelete1" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -306,7 +306,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="56" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="57" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
