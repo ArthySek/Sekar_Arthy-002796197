@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class EncounterHistory {
     private ArrayList<Encounter> Encdir;    

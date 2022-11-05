@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class Hospital extends Community{
     private String HospitalName;

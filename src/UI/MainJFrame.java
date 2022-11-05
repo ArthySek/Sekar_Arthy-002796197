@@ -23,7 +23,7 @@ import UI.CityAdminJPanel;
 import javax.swing.JCheckBox;
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class MainJFrame extends javax.swing.JFrame {
     

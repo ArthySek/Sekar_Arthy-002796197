@@ -6,7 +6,7 @@ package UI;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 class MyJPanel {
     

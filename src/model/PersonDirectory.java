@@ -7,7 +7,7 @@ package model;
 import java.util.ArrayList;
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class PersonDirectory{
     private ArrayList<Person> allpeople;    

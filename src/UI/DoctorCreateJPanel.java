@@ -15,7 +15,7 @@ import model.MainSystem;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class DoctorCreateJPanel extends javax.swing.JPanel {
 

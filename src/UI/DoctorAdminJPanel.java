@@ -6,7 +6,7 @@ package UI;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class DoctorAdminJPanel extends javax.swing.JPanel {
 

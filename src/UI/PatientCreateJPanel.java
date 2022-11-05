@@ -18,7 +18,7 @@ import model.Hospital;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 
 public class PatientCreateJPanel extends javax.swing.JPanel {

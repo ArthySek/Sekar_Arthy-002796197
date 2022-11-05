@@ -15,7 +15,7 @@ import model.City;
 import model.MainSystem;
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class HospitalAdminJPanel extends javax.swing.JPanel {
 

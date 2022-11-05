@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class HospAdminCreateJPanel extends javax.swing.JPanel {
 

@@ -21,7 +21,7 @@ import javax.swing.JCheckBox;
 import model.MainSystem;
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class SystemAdminJPanel extends javax.swing.JPanel {
 

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author abhis
+ * @author arthy
  */
 public class Community{
     private int zipcode;
