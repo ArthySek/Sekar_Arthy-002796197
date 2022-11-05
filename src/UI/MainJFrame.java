@@ -218,20 +218,21 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         loginPanel = new javax.swing.JPanel();
+        mainPanel = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         txtuname = new javax.swing.JTextField();
+        txtpassword = new javax.swing.JPasswordField();
         jLabel7 = new javax.swing.JLabel();
-        chkbxPatient = new javax.swing.JCheckBox();
         chkbxSysAdmin = new javax.swing.JCheckBox();
         chkbxCommAdmin = new javax.swing.JCheckBox();
         chkbxHospAdmin = new javax.swing.JCheckBox();
         chkbxDoctor = new javax.swing.JCheckBox();
+        chkbxPatient = new javax.swing.JCheckBox();
         btnAuthenticate = new javax.swing.JButton();
-        txtpassword = new javax.swing.JPasswordField();
-        mainPanel = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
 
         jLabel1.setText("jLabel1");
 
@@ -244,34 +245,37 @@ public class MainJFrame extends javax.swing.JFrame {
         loginPanel.setBackground(new java.awt.Color(51, 51, 255));
         loginPanel.setForeground(new java.awt.Color(0, 102, 255));
         loginPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        loginPanel.add(mainPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-350, -160, 1070, 600));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        getContentPane().add(loginPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 160, 360, 320));
+
+        jLabel8.setFont(new java.awt.Font("Helvetica Neue", 0, 36)); // NOI18N
+        jLabel8.setText("Health Records - USA");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel4.setText("Login");
-        loginPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
+
+        jLabel3.setBackground(new java.awt.Color(204, 204, 204));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, 580));
 
         jLabel5.setText("Username");
-        loginPanel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
 
         jLabel6.setText("Password");
-        loginPanel.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, -1, -1));
 
         txtuname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtunameActionPerformed(evt);
             }
         });
-        loginPanel.add(txtuname, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, 130, -1));
+        getContentPane().add(txtuname, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, 130, -1));
+        getContentPane().add(txtpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 130, -1));
 
         jLabel7.setText("Role");
-        loginPanel.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
-
-        chkbxPatient.setText("Patient");
-        chkbxPatient.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                chkbxPatientActionPerformed(evt);
-            }
-        });
-        loginPanel.add(chkbxPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, -1, -1));
 
         chkbxSysAdmin.setText("System Admin");
         chkbxSysAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -279,7 +283,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 chkbxSysAdminActionPerformed(evt);
             }
         });
-        loginPanel.add(chkbxSysAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, 20));
+        getContentPane().add(chkbxSysAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, 20));
 
         chkbxCommAdmin.setText("Community Admin");
         chkbxCommAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -287,7 +291,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 chkbxCommAdminActionPerformed(evt);
             }
         });
-        loginPanel.add(chkbxCommAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, -1, -1));
+        getContentPane().add(chkbxCommAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, -1, -1));
 
         chkbxHospAdmin.setText("Hospital Admin");
         chkbxHospAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -295,7 +299,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 chkbxHospAdminActionPerformed(evt);
             }
         });
-        loginPanel.add(chkbxHospAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, -1, -1));
+        getContentPane().add(chkbxHospAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 320, -1, -1));
 
         chkbxDoctor.setText("Doctor");
         chkbxDoctor.addActionListener(new java.awt.event.ActionListener() {
@@ -303,25 +307,27 @@ public class MainJFrame extends javax.swing.JFrame {
                 chkbxDoctorActionPerformed(evt);
             }
         });
-        loginPanel.add(chkbxDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, -1, -1));
+        getContentPane().add(chkbxDoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 340, -1, -1));
 
-        btnAuthenticate.setBackground(new java.awt.Color(102, 102, 255));
+        chkbxPatient.setText("Patient");
+        chkbxPatient.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chkbxPatientActionPerformed(evt);
+            }
+        });
+        getContentPane().add(chkbxPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 360, -1, -1));
+
+        btnAuthenticate.setBackground(new java.awt.Color(0, 0, 0));
+        btnAuthenticate.setForeground(new java.awt.Color(255, 255, 255));
         btnAuthenticate.setText("Authenticate");
         btnAuthenticate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAuthenticateActionPerformed(evt);
             }
         });
-        loginPanel.add(btnAuthenticate, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, -1, -1));
-        loginPanel.add(txtpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, 130, -1));
-        loginPanel.add(mainPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-350, -160, 1070, 600));
+        getContentPane().add(btnAuthenticate, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, 200, 40));
 
-        getContentPane().add(loginPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 160, 360, 320));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\abhis\\Documents\\NetBeansProjects\\Assignment2-VitalSigns\\Pics\\loginPage.jpg")); // NOI18N
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 600));
-
-        setSize(new java.awt.Dimension(1084, 607));
+        setSize(new java.awt.Dimension(598, 607));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -555,6 +561,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel loginPanel;
     private javax.swing.JPanel mainPanel;
     private javax.swing.JPasswordField txtpassword;
