@@ -15,7 +15,7 @@ public class Credentials {
 
     public Credentials(){
         this.username = "Admin";
-        this.password = "fd2556b9dd";
+        this.password = "pass@123";
         this.role = "System Admin";
     }
     

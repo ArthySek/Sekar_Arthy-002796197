@@ -49,8 +49,8 @@ public class CredentialDirectory{
     }    
 
     public boolean checkSysAdminCred(String username,String password, String role){
-        System.out.println("Hey man youre in" + password + " " + username + " " + role);          
-        if(username.equals("admin") && password.equals("fd2556b9dd") && role.equals("System Admin")){
+                 
+        if(username.equals("admin") && password.equals("pass@123") && role.equals("System Admin")){
             return true;
         }
         else{
@@ -61,16 +61,16 @@ public class CredentialDirectory{
     
     public boolean checkCommAdminCred(String username,String password, String role)
     {
-        System.out.println("FUNCTION " + username + " " + password);
+        
         ArrayList<Credentials> searchCredentials = new ArrayList();
-        System.out.println("FUNCTION " + username + " " + password + " ");
+        
         //System.out.println(credential.);
         for(Credentials credentials1: credential)
         {
-            System.out.println("DURING THE FOR LOOP" + credentials1.getUsername() + " " + credentials1.getPassword());
+            
             if(credentials1.getUsername().equals(username) && credentials1.getPassword().equals(password) && credentials1.getRole().equals(role))
             {
-                System.out.println("WE ARE ADDING YOUR STUFF "+ credentials1.getRole());
+                
                 searchCredentials.add(credentials1);
                
             }
@@ -84,16 +84,16 @@ public class CredentialDirectory{
     
     public boolean checkHospAdminCred(String username,String password, String role)
     {
-        System.out.println("FUNCTION " + username + " " + password);
+        
         ArrayList<Credentials> searchCredentials = new ArrayList();
-        System.out.println("FUNCTION " + username + " " + password + " ");
+        
         //System.out.println(credential.);
         for(Credentials credentials1: credential)
         {
-            System.out.println("DURING THE FOR LOOP" + credentials1.getUsername() + " " + credentials1.getPassword());
+            
             if(credentials1.getUsername().equals(username) && credentials1.getPassword().equals(password) && credentials1.getRole().equals(role))
             {
-                System.out.println("WE ARE ADDING YOUR STUFF "+ credentials1.getRole());
+                
                 searchCredentials.add(credentials1);
                
             }

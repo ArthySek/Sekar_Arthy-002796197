@@ -30,167 +30,136 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btndelete" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnview" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnpop" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
+                  <Component id="lblCityid1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblCity1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jScrollPane1" min="-2" pref="378" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="lblCityid1" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace pref="93" max="32767" attributes="0"/>
-                                                  <Component id="txtCityid1" min="-2" pref="118" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="lblCity1" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="txtCity1" min="-2" pref="118" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="102" attributes="0">
-                                              <Component id="btndelete" linkSize="2" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="btnview" linkSize="2" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="btnpop" linkSize="2" min="-2" max="-2" attributes="0"/>
-                                          <Component id="btnedit" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblCity" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblCityid" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txtCityid" max="32767" attributes="0"/>
-                                  <Component id="txtCity" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="btncreate" min="-2" pref="378" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="txtCityid1" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="txtCity1" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="btnedit" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="106" pref="106" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="lblCity" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="26" max="32767" attributes="0"/>
+                          <Component id="txtCity" min="-2" pref="212" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="btncreate" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblCityid" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtCityid" min="-2" pref="212" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+              <EmptySpace min="67" pref="60" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="btndelete1" min="-2" pref="78" max="-2" attributes="0"/>
                           <Component id="lblCommunity1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCommunityid1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCommunityid1" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="49" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="txtCommunityid1" min="-2" pref="118" max="-2" attributes="0"/>
                           <Component id="txtCommunity1" min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="btnedit1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnview1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnpop1" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="btnedit1" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblCommunityid" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCommunity" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCommunity2" min="-2" pref="59" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" pref="29" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtCommunityid" alignment="1" min="-2" pref="169" max="-2" attributes="0"/>
+                              <Component id="ComboBoxCity" alignment="1" min="-2" pref="169" max="-2" attributes="0"/>
+                              <Component id="txtCommunity" min="-2" pref="169" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="btncreate2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane3" alignment="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblCommunityid" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCommunity" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCommunity2" min="-2" pref="59" max="-2" attributes="0"/>
+                          <Component id="lblHouse" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCommunity3" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                          <Component id="lblHouseNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCommunity4" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="txtCommunityid" max="32767" attributes="0"/>
-                          <Component id="txtCommunity" alignment="1" max="32767" attributes="0"/>
-                          <Component id="ComboBoxCity" alignment="1" pref="225" max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Component id="btncreate2" alignment="0" max="32767" attributes="0"/>
-                  <Component id="jScrollPane3" alignment="1" min="-2" pref="378" max="-2" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="btndelete1" linkSize="3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnview1" linkSize="3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnpop1" linkSize="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jScrollPane2" alignment="0" pref="0" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="lblHouseNo1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="txtHouseno1" min="-2" pref="118" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="lblHouse1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="txtHouse1" min="-2" pref="118" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="btndelete2" linkSize="4" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnview2" linkSize="4" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="btnpop2" linkSize="4" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnedit2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="ComboBoxComm" pref="163" max="32767" attributes="0"/>
+                          <Component id="txtHouse" max="32767" attributes="0"/>
+                          <Component id="txtHouseno" max="32767" attributes="0"/>
+                          <Component id="ComboBoxCity1" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblHouse" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblCommunity3" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
-                                  <Component id="lblHouseNo" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblCommunity4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="txtHouseno" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="txtHouse" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="ComboBoxComm" alignment="1" pref="225" max="32767" attributes="0"/>
-                                  <Component id="ComboBoxCity1" alignment="1" max="32767" attributes="0"/>
-                              </Group>
+                      <Component id="btndelete2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnview2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btnpop2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblHouse1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="txtHouse1" min="-2" pref="118" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblHouseNo1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="41" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnedit2" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtHouseno1" min="-2" pref="118" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="btncreate1" min="-2" pref="378" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="btncreate1" alignment="0" pref="276" max="32767" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" pref="390" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5433" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -205,7 +174,8 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btncreate" min="-2" pref="36" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -246,40 +216,36 @@
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btncreate1" min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="btncreate2" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btncreate2" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="btncreate1" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <EmptySpace min="52" pref="52" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jScrollPane1" min="-2" pref="135" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnview" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btnpop" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="btndelete" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="jScrollPane3" min="-2" pref="141" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btndelete1" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="btnview1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="btnpop1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="135" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnview" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnpop" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btndelete" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblCommunity1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCommunity1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtCommunityid1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCommunityid1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="txtCity1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="lblCity1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -290,54 +256,49 @@
                                   <Component id="lblCityid1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="141" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="lblCommunity1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtCommunity1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="txtCommunityid1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="lblCommunityid1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                  <Component id="btndelete1" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="btnview1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnpop1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btndelete2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnview2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnpop2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="btnedit" min="-2" pref="37" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblHouse1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtHouse1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblHouseNo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtHouseno1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="57" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btndelete2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnview2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnpop2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblHouse1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtHouse1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblHouseNo1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtHouseno1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnedit2" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="btnedit1" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnedit" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="btnedit1" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="btnedit2" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -389,6 +350,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCommunity">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCommunityActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCommunityid">
       <Events>
