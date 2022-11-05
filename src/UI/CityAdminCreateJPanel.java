@@ -61,7 +61,7 @@ public class CityAdminCreateJPanel extends javax.swing.JPanel {
                 
     }
     public void setLabelText() {
-        jLabel1.setText("Welcome Community Admin");
+        jLabel1.setText("Community");
     }
     
     public boolean rolecheck(){
@@ -894,7 +894,7 @@ public class CityAdminCreateJPanel extends javax.swing.JPanel {
     private void btndelete1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndelete1ActionPerformed
         // TODO add your handling code here:
         boolean b1 = rolecheck();
-        System.out.println("ONLY ADMIN CAN DO THIS " + b1);
+        
         int SelectedRow = tblRecords2.getSelectedRow();
         if(SelectedRow<0){
             JOptionPane.showMessageDialog(this, "Please select a row");
@@ -919,7 +919,7 @@ public class CityAdminCreateJPanel extends javax.swing.JPanel {
     private void btndelete2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndelete2ActionPerformed
         // TODO add your handling code here:
         boolean b1 = rolecheck();
-        System.out.println("ONLY ADMIN CAN DO THIS " + b1);
+        
         int SelectedRow = tblRecords2.getSelectedRow();
         if(SelectedRow<0){
             JOptionPane.showMessageDialog(this, "Please select a row");
@@ -1014,7 +1014,7 @@ public class CityAdminCreateJPanel extends javax.swing.JPanel {
                             JOptionPane.showMessageDialog(this, "The input Id is already in use");
                         }else{
                             ArrayList<House> searchHouse = cm.searchHouse(SelectedRecords.getAddress());
-                            System.out.println("SIZE  "+ searchHouse.size());
+                            
                             searchHouse.get(0).setAddress(txtHouse1.getText());
                             Community cm1 = new Community();
                             cm1.setCommunityname(SelectedRecords.getCommunity().getCommunityname());
